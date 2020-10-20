@@ -1,10 +1,10 @@
 <div id="main_img_bar">
     <div class="slideshow"> 
         <div class="slideshow_slides">
-            <a href="#"><img src="./img/slide1.jpg" alt="slide1"></a>
-            <a href="#"><img src="./img/slide2.png" alt="slide2"></a>
-            <a href="#"><img src="./img/slide3.jpg" alt="slide3"></a>
-            <a href="#"><img src="./img/slide4.jpg" alt="slide4"></a>
+            <a href="#"><img src="./img/slide-1.jpg" alt="slide1"></a>
+            <a href="#"><img src="./img/slide-2.png" alt="slide2"></a>
+            <a href="#"><img src="./img/slide-3.jpg" alt="slide3"></a>
+            <a href="#"><img src="./img/slide-4.jpg" alt="slide4"></a>
         </div>
         <div class="slideshow_nav">
             <a href="#" class="prev">prev</a>
