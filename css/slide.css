@@ -1,0 +1,71 @@
+.slideshow {
+    background: #000;
+    height: 100%;
+    min-width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slideshow_slides {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.slideshow_slides a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+/* 이미지 스프라이트 처리 */
+.slideshow_nav a.prev {
+    background: url('../img/sprites.png') no-repeat 0 -20px;
+	width: 71px;
+    height: 71px;  /* 스프라이트 방식 */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);  /* 중앙에 배치시킨다. */
+    text-indent: -9999em;
+    margin-left: -480px;
+}
+
+
+.slideshow_nav a.next {
+	background: url('../img/sprites.png') no-repeat -80px -20px;
+	width: 72px;
+	height: 71px; /* 스프라이트 방식 */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);  /* 중앙에 배치시킨다. */
+    text-indent: -9999em; /* 문자를 멀리 보낸다. */
+    margin-left: 409px;
+}
+
+.slideshow_indicator {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    text-align: center;
+}
+
+.slideshow_indicator a {
+    background: url('../img/sprites.png') no-repeat -113px -4px;
+	width: 9px;
+    height: 8px; /* 스프라이트 방식 */
+    margin: 0 5px; 
+    color: black;
+    text-indent: -9999em; /* 문자를 멀리 보낸다. */
+    display: inline-block;
+}
+
+.slideshow_indicator a.active {
+    background: url('../img/sprites.png') no-repeat -133px -4px;
+	width: 9px;
+	height: 8px; /* 스프라이트 방식 */
+    text-indent: -9999em; /* 문자를 멀리 보낸다. */
+}
